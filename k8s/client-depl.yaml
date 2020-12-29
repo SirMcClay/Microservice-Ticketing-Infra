@@ -16,7 +16,7 @@ spec:
         - name: client
           # Google Cloud image
           # image: us.gcr.io/ticketing-microsrv/client
-          image: client
+          image: sirmcclay/client
           resources:
             limits:
               memory: 512Mi

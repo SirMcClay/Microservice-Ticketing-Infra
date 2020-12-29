@@ -16,7 +16,7 @@ spec:
         - name: tickets
           # Google Cloud image
           # image: us.gcr.io/ticketing-microsrv/tickets
-          image: tickets
+          image: sirmcclay/tickets
           env:
             - name: MONGO_URI
               value: 'mongodb://tickets-mongo-srv:27017/tickets'
