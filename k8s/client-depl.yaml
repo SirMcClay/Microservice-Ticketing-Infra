@@ -14,7 +14,9 @@ spec:
     spec:
       containers:
         - name: client
-          image: us.gcr.io/ticketing-microsrv/client
+          # Google Cloud image
+          # image: us.gcr.io/ticketing-microsrv/client
+          image: client
           resources:
             limits:
               memory: 512Mi
